@@ -12,6 +12,13 @@ let tip = (billAmount >= 50 && billAmount <= 300) ? billAmount*0.15 : billAmount
 let total = billAmount+tip
 console.log("The bill was $" + billAmount + ", the tip was $" + tip + ", and the total value $" + total)
 
+// Part 3: Create function
+
+billAmount = 100
+function CalcTip(billAmount) {
+    return (billAmount >= 50 && billAmount <= 300) ? billAmount*0.15 : billAmount*0.2
+}
+
 </script>
 </body>
 </html>
