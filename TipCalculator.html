@@ -2,10 +2,15 @@
 <body>
 <script>
 
-// Part 1: Determine the tip amount based on the bill using a ternary operator instead of if/else statements. Store this result in a variable named tip.
+// Part 1: Determine the tip amount.
 
 let billAmount = 500
 let tip = (billAmount >= 50 && billAmount <= 300) ? billAmount*0.15 : billAmount*0.2
+
+// Part 2: Console Message
+
+let total = billAmount+tip
+console.log("The bill was $" + billAmount + ", the tip was $" + tip + ", and the total value $" + total)
 
 </script>
 </body>
