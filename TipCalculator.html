@@ -19,6 +19,21 @@ function CalcTip(billAmount) {
     return (billAmount >= 50 && billAmount <= 300) ? billAmount*0.15 : billAmount*0.2
 }
 
+// Part 4: Arrays
+
+let DataSet1 = [275, 40, 430]
+let DataSet2 = [125, 555, 44]
+let bills = DataSet1.concat(DataSet2) // Array of bills
+
+let tips = [];
+let totals = [];
+
+for (let index = 0; index < bills.length; index++) {
+    let tipValue = CalcTip(bills[index]);
+    tips.push(tipValue); // Array of tips
+    totals.push(tipValue + bills[index]); // Array of totals
+}
+
 </script>
 </body>
 </html>
