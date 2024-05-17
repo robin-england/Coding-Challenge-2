@@ -1,39 +1,6 @@
 <html>
-<body>
-<script>
-
-// Part 1: Determine the tip amount.
-
-let billAmount = 500
-let tip = (billAmount >= 50 && billAmount <= 300) ? billAmount*0.15 : billAmount*0.2
-
-// Part 2: Console Message
-
-let total = billAmount+tip
-console.log("The bill was $" + billAmount + ", the tip was $" + tip + ", and the total value $" + total)
-
-// Part 3: Create function
-
-billAmount = 100
-function CalcTip(billAmount) {
-    return (billAmount >= 50 && billAmount <= 300) ? billAmount*0.15 : billAmount*0.2
-}
-
-// Part 4: Arrays
-
-let DataSet1 = [275, 40, 430]
-let DataSet2 = [125, 555, 44]
-let bills = DataSet1.concat(DataSet2) // Array of bills
-
-let tips = [];
-let totals = [];
-
-for (let index = 0; index < bills.length; index++) {
-    let tipValue = CalcTip(bills[index]);
-    tips.push(tipValue); // Array of tips
-    totals.push(tipValue + bills[index]); // Array of totals
-}
-
-</script>
-</body>
+    <body>
+        <h2>Please inspect to view JavaScript</h2>
+        <script type="text/javascript" src="cc_1.js"></script>
+    </body>
 </html>

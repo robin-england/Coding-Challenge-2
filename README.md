@@ -1,2 +1,4 @@
-This is coding challange 2, where we will be creating a tip calculator. The instruction is as follows: 
+
+This is coding challenge 2, where we will be creating a tip calculator. The instructions are as follows: 
 "Steven wants to create a straightforward tip calculator for use when dining out. In his region, it is customary to leave a 15% tip for bills between $50 and $300, and a 20% tip for any other amounts."
+
